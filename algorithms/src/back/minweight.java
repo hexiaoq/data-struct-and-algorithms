@@ -15,7 +15,7 @@ package back;
 import java.util.Scanner;
 
 public class minweight {
-    static int w[][]=new int[200][200];//表示第i个供应商的第j个产品的重量
+    static int w[][]=new int[300][300];//表示第i个供应商的第j个产品的重量
     static int p[][]=new int[100][100];//表示第i个供应商的第j个产品的价格
     int useless = 1;
     static int minw=10000;//表示最小质量,默认为无穷
