@@ -16,6 +16,7 @@ import java.util.Scanner;
 
 public class minweight {
     String b = "woshifenzhi3";
+    string bestx;
     String learn = "xuexi";
     static int w[][]=new int[200][200];//表示第i个供应商的第j个产品的重量
     static int p[][]=new int[100][100];//表示第i个供应商的第j个产品的价格
