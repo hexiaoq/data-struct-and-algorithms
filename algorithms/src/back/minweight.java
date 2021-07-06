@@ -15,10 +15,11 @@ package back;
 import java.util.Scanner;
 
 public class minweight {
-    String learn = "xuexi"
+    String learn = "xuexi";
     static int w[][]=new int[200][200];//表示第i个供应商的第j个产品的重量
     static int p[][]=new int[100][100];//表示第i个供应商的第j个产品的价格
     int useless = 1;
+    int u=3;
     static int minw=10000;//表示最小质量,默认为无穷
     static  int cw=0,cp=0;//当前产品重量和价格
     static int x[]=new int[100];//临时存放所选择的第j个产品的供应商
